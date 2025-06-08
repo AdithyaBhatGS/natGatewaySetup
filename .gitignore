@@ -1,0 +1,11 @@
+# Ignoring state files
+*.tfstate
+*.tfstate.*
+
+
+# Ignoring variables
+*.tfvars
+*.tfvars.json
+
+# Lock file 
+**/.terraform/*

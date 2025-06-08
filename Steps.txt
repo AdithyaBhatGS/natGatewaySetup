@@ -1,0 +1,10 @@
+1)Create 1 VPC
+2)Create 2 subnets and launch it in the created VPC
+	1 public subnet, 1 private subnet
+3)Create 1 internet gateway and attach it to the VPC
+4)Create 2 Ec2 instance, deploy 1 in a private subnet and 1 in public subnet along with keys
+5)Ensure to enable public ip address for public instance
+6)Add Security groups to each of the public and private instances
+7)Create a NAT gateway and deploy it in the public subnet
+8)Create 2 route tables 1 for public subnet and another for private subnet and attach those routes to those subnets
+9)Post deployment copy private key from local machine to public instance and then connect to private instance to test the connectivity
